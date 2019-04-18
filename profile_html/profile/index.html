@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Modern Business - Start Bootstrap Template</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/profile.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/Footer-with-logo.css">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+	<style>
+		.clearfix{clear:both;}
+	</style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+	
+<div id="mySidenav" class="sidenav">
+
+  <div class="profile-sidebar">
+   
+				<!-- SIDEBAR USERPIC -->
+				<div class="sidebar-profile-box" >
+				 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="profile-userpic">
+					<img src="images/user3-128x128.jpg" class="img-responsive" alt="">
+				</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						Marcus Doe
+						
+					</div>
+					
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+				<div class="profile-userbuttons">
+				<!--	<button type="button" class="btn btn-default btn-sm">View Profile</button>-->
+					
+				</div>
+				</div>
+				<!-- END SIDEBAR BUTTONS -->
+				<!-- SIDEBAR MENU -->
+				<div class="profile-usermenu">
+					<ul class="nav">
+						<li class="active">
+							 <a href="#"><i class="fa fa-home "></i> Home</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-list-ul" aria-hidden="true"></i> my order</a>
+						</li>
+						<li>
+							
+							 <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> whishlist</a>
+						</li>
+						<li>
+							
+							 <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i> cart</a>
+						</li>
+					</ul>
+				</div>
+				<!-- END MENU -->
+			</div>
+</div>
+
+
+
+<div id="mycategory" class="sidenav">
+
+  <div class="profile-sidebar">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+			
+				<!-- SIDEBAR MENU -->
+				<div class="profile-usermenu">
+					<ul class="nav">
+						<li class="active">
+							 <a href="#"><img class="menu-icon" src="images/icon/tie.png"> Men</a>
+						</li>
+						<li>
+							<a href="#"><img class="menu-icon" src="images/icon/avatar.png">  women</a>
+						</li>
+						<li>
+							
+							 <a href="#"><img class="menu-icon" src="images/icon/hair-cut.png">   hair & Beauty</a>
+						</li>
+						<li>
+							
+							 <a href="#"><img class="menu-icon" src="images/icon/genders.png">   Unisex</a>
+						</li>
+						<li>
+							
+							 <a href="#"><img class="menu-icon" src="images/icon/fabric.png">  Fabrics & kente</a>
+						</li>
+						<li>
+							
+							 <a href="#"><img class="menu-icon" src="images/icon/sofa.png">  Home Accessories</a>
+						</li>
+					</ul>
+				</div>
+				<!-- END MENU -->
+			</div>
+</div>
+
+<div class="clearfix"></div>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="row">
+			<div class="navbar-header">
+				
+					<a href="#!" class="hidden-lg hidden-md" style="font-size:20px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+					<a class="navbar-brand" href="index.html"><img src="images/Bisanulogo.png" width="100px;"></a>
+					
+					<a href="#!" class="hidden-lg hidden-md sea-cart pull-right" style="font-size:20px;cursor:pointer" ><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+					<a href="#!" class="hidden-lg hidden-md sea-cart pull-right" style="font-size:20px;cursor:pointer" ><i class="fa fa-search" aria-hidden="true"></i></a>
+            
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            
+               <form class="navbar-form navbar-left hidden-sm hidden-xs">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search for items & shops">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form> 
+	<ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+                    <li>
+                        <a href="about.html"><i class="fa fa-home "></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="services.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Shop</a>
+                    </li>
+                   <li class="dropdown user user-menu">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <img src="images/user3-128x128.jpg" class="user-image" alt="User Image"/>
+                  <span >You <i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                </a>
+				
+                <ul class="dropdown-menu">
+                  <!-- User image -->
+                  <li class="user-header">
+                    <img src="images/user3-128x128.jpg" class="img-circle" alt="User Image" />
+                     <button class="btn btn-default">View Profile</button>
+                  </li>
+                  <!-- Menu Body -->
+                  <li class="user-body">
+                   
+                      <a href="#">Activity</a>
+                  
+                    
+                  </li>
+				  <li class="user-body">
+                      <a href="#">Purchases</a>
+                  </li>
+				    <li class="user-body">
+                      <a href="#">Reviews</a>
+                  </li>
+				    <li class="user-body">
+                      <a href="#">Disputes</a>
+                  </li>
+				    <li class="user-body">
+                      <a href="#">Manage Community</a>
+                  </li>
+				    <li class="user-body">
+                      <a href="#">Public Profile</a>
+                  </li>
+				    <li class="user-body">
+                      <a href="#">Conversations</a>
+                  </li>
+				  <li class="user-body">
+                      <a href="#">Account Settings</a>
+                  </li>
+				    <li class="user-body">
+                      <a href="#">Log Out</a>
+                  </li>
+                  <!-- Menu Footer-->
+                  
+                </ul>
+              </li>
+			   <li class="active">
+                        <a href="contact.html"><i class="fa fa-cart-plus" aria-hidden="true"></i> Cart (2)</a>
+                    </li>
+			  
+                </ul>
+           
+            <!-- /.navbar-collapse -->
+        </div>
+        </div>
+        <!-- /.container -->
+		</nav><div class="clearfix"></div>
+<nav class="navbar navbar-default hidden-sm hidden-xs">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav noborder-nav">
+   
+       
+	   <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Men
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+	   <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Women
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+	   <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Hair & Beauty
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+	   <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Unisex
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+	   <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Fabrics & Kente
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>	
+<div class="clearfix"></div>
+
+<nav class="navbar navbar-default hidden-md-up hidden-md hidden-lg">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav noborder-nav">
+     <li class="drop">
+			<a href="#!"><img src="images/men.png"></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">men
+        </a>
+       
+      </li >
+       <li class="drop">
+	   <a href="#!"><img src="images/accesories.png"></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Accessories
+        </a>
+        
+      </li>
+     
+	   <li class="drop">
+	   <a href="#!"><img src="images/women.png"></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Women
+       </a>
+      
+      </li>
+	   <li class="drop">
+		<a href="#!" onclick="openCat()"><img src="images/list.png"></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" onclick="openCat()" href="#">Categories</a></li>
+	  
+    </ul>
+  </div>
+</nav>	
+
+<div class="clearfix"></div>
+<nav id='cssmenu'>
+
+<div id="head-mobile"></div>
+<div class="button"></div>
+<ul>
+<li ><a href='#'>Shop Info</a></li>
+<li  class='active'><a href='#'>Add Item</a></li>
+<li><a href='#'>Manage Items</a></li>
+<li><a href='#'>Payment Settings</a>
+<ul>
+<li ><a href='#'>Shop Info</a></li>
+<li  class='active'><a href='#'>Add Item</a></li>
+</ul>
+</li>
+
+</ul>
+</nav>
+	<div class="container controls margin-bottom">
+	<h2>Pheb Collections's Profile</h2>
+	<div class="col-md-3">
+		<div class="row">
+		<div class="profile-sidebar">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<img src="images/user3-128x128.jpg" class="img-responsive" alt="">
+				</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						Marcus Doe
+					</div>
+					<div class="profile-usertitle-job">
+					
+					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+				<div class="profile-userbuttons">
+					<button type="button" class="btn btn-primary round btn-sm"><i class="fa fa-camera camera-icon" aria-hidden="true"></i></button>
+					
+				</div>
+				<!-- END SIDEBAR BUTTONS -->
+				<!-- SIDEBAR MENU -->
+				<div class="profile-usermenu">
+					<ul class="nav">
+						<li class="active">
+							<a href="#">
+							
+							Profile </a>
+						</li>
+						<li>
+							<a href="#">
+							Favorites</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+							Followers </a>
+						</li>
+						<li>
+							<a href="#">
+						
+							Contact </a>
+						</li>
+					</ul>
+				</div>
+				<!-- END MENU -->
+			</div>
+		</div>
+	</div>
+	<div class="col-md-5">
+		
+			<div class="panel panel-default">
+			  <div class="panel-body">
+				<h4>About</h4>
+					<p>
+						Pheb Collections gives you the opportunity to choose from a
+						wide variety of quality handmade accessories and clothes for
+						all your occasions. Our clothes and accessories are perfectly
+						made to suite our
+					</p>
+					<h4><small>Joined January 29 2017</small></h4>
+					<h4>Favorite materials</h4>
+					<a href="#">GTP</a>, <a href="#">ATL</a>, <a href="#">Vlisco</a>, <a href="#">Kente cotton material</a>, <a href="#">paper card</a>, <a href="#">beads</a></a>
+			  </div>
+			</div>
+		
+	</div>
+	<div class="col-md-4">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<div class="col-md-12 margin-bottom2">
+					<h4 class="inlineheading">Shop</h4><a href="#" class="btn btn-primary inline">See more</a>
+				</div>
+					<div class="col-md-3">
+						<div class="row2">
+						<a href="#"><img src="images/product1.jpg" class="img-rounded" style="width:100%" alt="Cinque Terre" ></a> </div>
+					</div>
+					<div class="col-md-3">
+						<div class="row2"><a href="#"><img src="images/product2.jpg" class="img-rounded" style="width:100%" alt="Cinque Terre" ></a> </div>
+					</div>
+					<div class="col-md-3">
+						<div class="row2"><a href="#"><img src="images/product3.jpg" class="img-rounded" style="width:100%" alt="Cinque Terre" ></a> </div>
+					</div>
+					<div class="col-md-3">
+						<div class="row2"><a href="#"><img src="images/product4.jpg" class="img-rounded" style="width:100%" alt="Cinque Terre" ></a> </div>
+					</div>
+					<div class="col-md-3">
+						<div class="row2"><a href="#"><img src="images/product1.jpg" class="img-rounded" style="width:100%" alt="Cinque Terre" > </a></div>
+					</div>
+					<div class="col-md-3">
+						<div class="row2"><a href="#"><img src="images/product2.jpg" class="img-rounded" style="width:100%" alt="Cinque Terre" > </a></div>
+					</div>
+					<div class="col-md-3">
+						<div class="row2"><a href="#"><img src="images/product3.jpg" class="img-rounded" style="width:100%" alt="Cinque Terre" ></a> </div>
+					</div>
+					<div class="col-md-3">
+						<div class="row2"><a href="#"><img src="images/product4.jpg" class="img-rounded" style="width:100%" alt="Cinque Terre" ></a> </div>
+					</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	</div>
+        <!-- Footer -->
+      <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 hidden-sm hidden-xs">
+                    <h5>Sell on Ataade</h5>
+                    <ul>
+                        <li><a href="#!">Browse all shops</a></li>
+                        <li><a href="#!">Search by location</a></li>
+                        
+                    </ul>
+				
+
+                </div>
+                <div class="col-sm-3 hidden-sm hidden-xs">
+                    <h5>Join the Community</h5>
+                    <ul>
+                        <li><a href="#!">Community</a></li>
+                        <li><a href="#!">Teams</a></li>
+                        <li><a href="#!">Upcoming Events</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 hidden-sm hidden-xs">
+                    <h5>Discover and Shop</h5>
+                    <ul>
+                        <li><a href="#!">Gift Cards</a></li>
+                        <li><a href="#!">Blog</a></li>
+                        <li><a href="#!">Gift Registries</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 hidden-sm hidden-xs info">
+                    <h5>Information</h5>
+                    <ul>
+                        <li><a href="#!">About</a></li>
+                        <li><a href="#!">Careers</a></li>
+                        <li><a href="#!">Contact</a></li>
+                    </ul>
+                </div>
+				 <div class="col-sm-2 hidden-sm hidden-xs  info">
+                    <h5>Follow Ataade</h5>
+                    <ul>
+                        <li><a href="#!"><i class="fa fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#!"><i class="fa fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#!"><i class="fa fa-pinterest-p"></i> Pintrest</a></li>
+						
+                    </ul>
+                </div>
+				
+				<div class="dropdown hidden-md hidden-lg box">
+				  <button class="dropbtn">Sell on Ataade <i class="fa fa-angle-right right" aria-hidden="true"></i></button>
+				  <div class="dropdown-content">
+					<a href="#!">Browse all shops</a>
+					<a href="#!">Search by location</a>
+				  </div>
+				</div>
+				<div class="dropdown hidden-md hidden-lg box">
+				  <button class="dropbtn">Join the Community <i class="fa fa-angle-right right" aria-hidden="true"></i></button>
+				  <div class="dropdown-content">
+					<a href="#!">Community</a>
+					<a href="#!">Teams</a>
+					<a href="#!">Upcoming Events</a>
+				  </div>
+				</div>
+				<div class="dropdown hidden-md hidden-lg box">
+				  <button class="dropbtn">Discover and Shop <i class="fa fa-angle-right right" aria-hidden="true"></i></button>
+				  <div class="dropdown-content">
+					<a href="#!">Gift Cards</a>
+					<a href="#!">Blog</a>
+					<a href="#!">Gift Registries</a>
+				  </div>
+				</div>
+				<div class="dropdown hidden-md hidden-lg box">
+				  <button class="dropbtn">Information <i class="fa fa-angle-right right" aria-hidden="true"></i></button>
+				  <div class="dropdown-content">
+					<a href="#!">About</a>
+					<a href="#!">Careers</a>
+					<a href="#!">Contact</a>
+				  </div>
+				</div>
+				<div class="dropdown hidden-md hidden-lg box">
+				  <button class="dropbtn">Follow Ataade <i class="fa fa-angle-right right" aria-hidden="true"></i></button>
+				  <div class="dropdown-content">
+					<a href="#!">Facebook</a>
+					<a href="#!">Twitter</a>
+					<a href="#!">Pintrest</a>
+				  </div>
+				</div>
+				
+            </div>
+			<p class="text-center ">Turn Your Passion Into a Business</p>
+				<button type="button" class="btn btn-primary center-block"> <i class="fa fa-user" aria-hidden="true"></i> Open A Shop  <i class="fa fa-shopping-bag" aria-hidden="true"></i></button>
+				<br/>
+        </div>
+        <div class="second-bar">
+           <div class="container">
+                <div class="footer-right">
+
+				<a href="#!">English</a> 
+				<a href="#!">USD</a>
+				<a href="#!" class="active">Help</a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+				@ 2013-2016 Ataade, Inc 
+					<a href="#!">Privacy Policy</a>
+				</p>
+
+				
+			</div>
+            </div>
+        </div>
+    </footer>
+
+   
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+	
+	
+    $('#!myCarousel').carousel({
+	    interval: 10000
+	})
+  
+function openNav() {
+    document.getElementById("mySidenav").style.width = "90%";
+}
+function openCat() {
+    document.getElementById("mycategory").style.width = "96%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+function closeNav2() {
+    document.getElementById("mycategory").style.width = "0";
+}
+
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+
+
+</script>
+
+
+<script>
+(function($) {
+$.fn.menumaker = function(options) {  
+ var cssmenu = $(this), settings = $.extend({
+   format: "dropdown",
+   sticky: false
+ }, options);
+ return this.each(function() {
+   $(this).find(".button").on('click', function(){
+     $(this).toggleClass('menu-opened');
+     var mainmenu = $(this).next('ul');
+     if (mainmenu.hasClass('open')) { 
+       mainmenu.slideToggle().removeClass('open');
+     }
+     else {
+       mainmenu.slideToggle().addClass('open');
+       if (settings.format === "dropdown") {
+         mainmenu.find('ul').show();
+       }
+     }
+   });
+   cssmenu.find('li ul').parent().addClass('has-sub');
+multiTg = function() {
+     cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
+     cssmenu.find('.submenu-button').on('click', function() {
+       $(this).toggleClass('submenu-opened');
+       if ($(this).siblings('ul').hasClass('open')) {
+         $(this).siblings('ul').removeClass('open').slideToggle();
+       }
+       else {
+         $(this).siblings('ul').addClass('open').slideToggle();
+       }
+     });
+   };
+   if (settings.format === 'multitoggle') multiTg();
+   else cssmenu.addClass('dropdown');
+   if (settings.sticky === true) cssmenu.css('position', 'fixed');
+resizeFix = function() {
+  var mediasize = 1000;
+     if ($( window ).width() > mediasize) {
+       cssmenu.find('ul').show();
+     }
+     if ($(window).width() <= mediasize) {
+       cssmenu.find('ul').hide().removeClass('open');
+     }
+   };
+   resizeFix();
+   return $(window).on('resize', resizeFix);
+ });
+  };
+})(jQuery);
+
+(function($){
+$(document).ready(function(){
+$("#cssmenu").menumaker({
+   format: "multitoggle"
+});
+});
+})(jQuery);
+</script>
+
+</body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</html>

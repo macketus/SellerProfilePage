@@ -1,0 +1,191 @@
+body{background-color:#f9f9f9;font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;}
+.center-block{
+    Float:none;
+    margin: 0 auto;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+#navbar-primary .navbar-nav{
+  width: 100%;
+  text-align: center;
+}
+	#navbar-primary .navbar-nav li{
+	 display: block;
+    float: none;
+	}
+.form-box{background-color:white;
+		  border-box:box-sizing;
+		  padding:20px 0px;
+		  border:1px solid #e6e6e6;
+		  border-radius:10px;
+		  }
+.form{padding:10px;
+width: 67%;
+    margin: 0 auto;
+}
+.form-mob{
+width: 75%;
+}
+.mob-logo{margin-bottom:40px;}
+.slink{font-size:12px;}
+hr {
+    margin-top: 5px;
+    margin-bottom: 2px;
+	}
+/* Shared */
+.loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  /* width: 13em;  - apply for fixed size */
+  margin: 0.2em;
+  padding: 0 15px 0 46px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 1.2em;
+  font-size: 14px;
+  color: #FFF;
+}
+.loginBtn:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 4px;
+     left: 8px;
+    width: 25px;
+    height: 100%;
+}
+.loginBtn:focus {
+  outline: none;
+}
+.loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+}
+
+
+/* Facebook */
+.loginBtn--facebook {
+  background-color: #43609c;
+ 
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 -1px 0 #354C8C;
+}
+.loginBtn--facebook:before {
+  
+  background: url('../images/facebook-logo-button.png') 0px 0px no-repeat;
+  background-size: contain;
+}
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+  background-color: #5B7BD5;
+  background-image: linear-gradient(#5B7BD5, #4864B1);
+}
+
+
+/* Google */
+.loginBtn--google {
+  /*font-family: "Roboto", Roboto, arial, sans-serif;*/
+  background: #cf4d4d;
+}
+.loginBtn--google:before {
+  background: url('../images/google-plus.png') 0px 0px no-repeat;
+  background-size: contain;
+}
+.loginBtn--google:hover,
+.loginBtn--google:focus {
+  background: #E74B37;
+}
+.the-legend {
+    border-style: none;
+    border-width: 0;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    width: auto;
+    padding: 0 10px;
+    border: 0px solid #e0e0e0;
+}
+.the-fieldset {
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+	border-bottom:0px;
+	border-right:0;
+	border-left:0px;
+}
+.form-control, .select2-search input[type=text] {
+   background-color: #f9f9f9;
+    border-radius: 1.2em;
+    *width: 50%;
+    margin: 14px auto;    border: 1px solid #ececec;
+}
+.btn-primary{border-radius:3em;    margin: 18px 0 20px 0;}
+.btn-success{border-radius:3em;    margin: 18px 0 20px 0;}
+
+
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
